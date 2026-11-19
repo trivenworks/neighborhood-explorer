@@ -1,0 +1,182 @@
+{
+  "entry": "index.html",
+  "original_files_unchanged": true,
+  "saved_profile_and_recommendations_identical": true,
+  "api_tests_passed": 4,
+  "dom_pages_checked": [
+    "index.html",
+    "eda.html",
+    "insights.html"
+  ],
+  "deployment_status": "Not deployed; configure Vercel environment variables and NAVER domain authorization first.",
+  "files": {
+    ".env.example": {
+      "bytes": 151,
+      "sha256": "f221911ffda5880e1bcc872a4e6c740e45736d187f99b7f1e7e78215335db0e2"
+    },
+    ".gitignore": {
+      "bytes": 104,
+      "sha256": "6609f25d3fb82729a5a3888a8c0811895505627ee014af05aa9fa580723ed149"
+    },
+    ".python-version": {
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    ".vercelignore": {
+      "bytes": 54,
+      "sha256": "06dedabfa87fd4db8d88cb72e7780109b902d13f5ed9974f7c96bb6a36d2d13b"
+    },
+    "README.md": {
+      "bytes": 4514,
+      "sha256": "82d4ac55cee7fcaf2a5c146a3565e322720967a01590ee9c20b906d22fe2a38d"
+    },
+    "api/local-search.py": {
+      "bytes": 409,
+      "sha256": "6f4aceb5ebbd9e0431ff9c57e5d71c7e1f0d0f634f5def446950e3d53595b7ce"
+    },
+    "api/map-config.py": {
+      "bytes": 405,
+      "sha256": "7315c2caeb6cea06cb131a29435573eb4c859b509c329804d9e4d41c114c29ed"
+    },
+    "assets/chart-viewer.js": {
+      "bytes": 827,
+      "sha256": "d68800b8ef56d7d10a3924a0a3bfffad9c9e24cdd5c1e7c762242198e86c62d7"
+    },
+    "assets/data.js": {
+      "bytes": 3355126,
+      "sha256": "a57250d0ea60eeddef30e5e0e7dd34c0569b9aed11b650b502e6925a7b80f996"
+    },
+    "assets/eda.css": {
+      "bytes": 31372,
+      "sha256": "58c9f6b335e739e9476d5b34b0d921536550efb79899c09c6b2fefa61f4971a8"
+    },
+    "assets/fonts/LICENSE.txt": {
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    "assets/fonts/NotoSansKR-Medium.woff": {
+      "bytes": 1099016,
+      "sha256": "faa2e44443e4d99f36b803e831667c0c86519e4ed99beac852985b2c253a918a"
+    },
+    "assets/fonts/NotoSansKR-Regular.woff": {
+      "bytes": 1089036,
+      "sha256": "2da56884c665eaf2410b9f2307f8cf208c628d2648a4edc209c03659f2515d8d"
+    },
+    "assets/images/14a27dcf64075d10.png": {
+      "bytes": 499173,
+      "sha256": "14a27dcf64075d10912e00b0076f33b2892dec36e11fb4db24cc43feb653ac14"
+    },
+    "assets/images/2864e31ecfb3c100.png": {
+      "bytes": 197527,
+      "sha256": "2864e31ecfb3c100c02a844a749167eca504ca37623d8de22e925e75d522b6d3"
+    },
+    "assets/images/59a5df990684b956.png": {
+      "bytes": 88919,
+      "sha256": "59a5df990684b956f31c773375d0774d7d6287b2e3813dd4d5e6eb6f4bd75119"
+    },
+    "assets/images/b3784457e51edc5e.png": {
+      "bytes": 44480,
+      "sha256": "b3784457e51edc5ef6139f723a41048458febd03fa85a4ce3641ac2b5c171109"
+    },
+    "assets/images/b5d9db2c663af56d.png": {
+      "bytes": 34371,
+      "sha256": "b5d9db2c663af56d291706e52df06b9348f17b797f63d77582caf6d2a4c81e71"
+    },
+    "assets/images/baa7572834582aff.png": {
+      "bytes": 55971,
+      "sha256": "baa7572834582aff4b3ef625366e72f621d575e1c900a2ade670317fd6895d89"
+    },
+    "assets/images/da708cf3063b04e1.png": {
+      "bytes": 75851,
+      "sha256": "da708cf3063b04e14292fd43d891206ca7b2fc78b6e445b042d7a4c0a32f96f5"
+    },
+    "assets/insights.css": {
+      "bytes": 31372,
+      "sha256": "58c9f6b335e739e9476d5b34b0d921536550efb79899c09c6b2fefa61f4971a8"
+    },
+    "assets/local-places.js": {
+      "bytes": 5101,
+      "sha256": "ebdf0f1367016be430297c92d0a55b1734f9e72b5ce402f76c073704d50d106e"
+    },
+    "assets/main-ui.js": {
+      "bytes": 21803,
+      "sha256": "6a85648fa2c61aba0a3a16a11cfaf20145c12a44a43d8fbd4dbdd81ccda95437"
+    },
+    "assets/main.css": {
+      "bytes": 23890,
+      "sha256": "7c48f5a7bc28d42ad13d81801e332ca06a010796cfd72feb1243e7e238fd8f6c"
+    },
+    "assets/naver-map.js": {
+      "bytes": 7366,
+      "sha256": "aaeaccc453d87e0ddcc76642d76e89eda0d2eba05b2d26c26ae4e9378db00a64"
+    },
+    "assets/neighbors.js": {
+      "bytes": 690679,
+      "sha256": "cb2db1537ae1a3a24af7dbd08c772a2b05e4e18575c2ad8be25da03be595d150"
+    },
+    "assets/reading-ui.js": {
+      "bytes": 531,
+      "sha256": "44392fd597b3a945545946cfdb605d607e67314ff6dfd6921db6807ef52308e8"
+    },
+    "assets/reports/eda.pdf": {
+      "bytes": 1138043,
+      "sha256": "05f3a01109e5cd00db6cd145fa8e1f9f7f941a5826303217443d9a38230610ef"
+    },
+    "assets/reports/insights.pdf": {
+      "bytes": 152421,
+      "sha256": "308737267c910921c718c0f88901d2eef2ef3ffb96c3147b14bbe7f78cd724b8"
+    },
+    "eda.html": {
+      "bytes": 15430,
+      "sha256": "bb568c9384f58f715d9b1971a9db47b23d4748106c469b6f9eec46ac63076326"
+    },
+    "index.html": {
+      "bytes": 8625,
+      "sha256": "21c64ee8edcdebec39d3a50b47a7757e7d5f0d8ee269281a9fe57b63d5b97a56"
+    },
+    "insights.html": {
+      "bytes": 14665,
+      "sha256": "15d152375e060db5c22ba3a47930853c7ce4f091421699fcf737f606de936037"
+    },
+    "requirements.txt": {
+      "bytes": 65,
+      "sha256": "002e09d287df8c151649fb5c1e2d431d75386be70085992419984fda85ada1f7"
+    },
+    "scripts/build_static.py": {
+      "bytes": 383,
+      "sha256": "0278074df637b74c87b471154e43417896ebd5f7d9394585baec8ef3c4120b3d"
+    },
+    "scripts/dev_server.py": {
+      "bytes": 1997,
+      "sha256": "2b5846d38a045bac38b157b7f37726e67af4ebed100bc2e95157bacc4fd10b84"
+    },
+    "server_lib/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "server_lib/areas.json": {
+      "bytes": 1941724,
+      "sha256": "6b1803a6c30e28937be8e656af6a383d54850fdec5f266ecfc789c3971ad89d8"
+    },
+    "server_lib/http.py": {
+      "bytes": 1927,
+      "sha256": "352675875e26f34cc2321cc3b237989199b957f019a5936a2374892cc2318455"
+    },
+    "server_lib/places.py": {
+      "bytes": 7487,
+      "sha256": "67abc07f5e92dab3a729523554d2caeb731048b279dc5a6c04e0f8d53dee1d73"
+    },
+    "start.command": {
+      "bytes": 80,
+      "sha256": "9aa97aafb24a89263a90212bdcccd5f57ad8f9abfd0e7db5af963e4e10500043"
+    },
+    "tests/test_api.py": {
+      "bytes": 2134,
+      "sha256": "d4446a44b036adacf8c35e184979e35fc1e41a88836abaf60c99bb8e0a74adac"
+    },
+    "vercel.json": {
+      "bytes": 969,
+      "sha256": "c859bd598dd27675a6c8079788e9ddfb3c06d84b0b2a40f25cecb49f01f42727"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "python3 scripts/build_static.py",
+  "outputDirectory": "public",
+  "functions": {
+    "api/*.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{assets/**,public/**,tests/**,scripts/**,*.html,README.md,UPLOAD_MANIFEST.json}"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/index-improved.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/workspace.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/workspace-eda.html",
+      "destination": "/eda.html",
+      "permanent": false
+    },
+    {
+      "source": "/workspace-insights.html",
+      "destination": "/insights.html",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
