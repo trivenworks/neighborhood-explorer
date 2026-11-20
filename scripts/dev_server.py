@@ -22,7 +22,8 @@ class Handler(SimpleHTTPRequestHandler):
   path=urlsplit(self.path).path
   if path=='/api/map-config':return map_config(self)
   if path=='/api/local-search':return local_search(self)
-  if path in ['/index-improved.html','/workspace.html']:self.path='/index.html'
+  if path in ['/index-improved.html','/home.html']:self.path='/index.html'
+  if path=='/workspace.html':self.path='/dashboard.html'
   if path=='/':self.path='/index.html'
   target=(ROOT/'public'/unquote(urlsplit(self.path).path).lstrip('/')).resolve()
   if ROOT/'public' not in target.parents or not target.is_file():return self.send_error(404)
@@ -31,7 +32,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8767);args=parser.parse_args();load_env()
- from build_static import ROOT as _root
+ sys.path.insert(0,str(ROOT/'scripts'));import build_static  # public/ 갱신
  # Execute the deterministic static copy before serving.
  server=ThreadingHTTPServer(('127.0.0.1',args.port),partial(Handler,directory=str(ROOT/'public')))
  print(f'열기: http://localhost:{args.port}/',flush=True);print('종료: Control+C',flush=True)

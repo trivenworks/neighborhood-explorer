@@ -16,8 +16,13 @@
       "permanent": false
     },
     {
-      "source": "/workspace.html",
+      "source": "/home.html",
       "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/workspace.html",
+      "destination": "/dashboard.html",
       "permanent": false
     },
     {
