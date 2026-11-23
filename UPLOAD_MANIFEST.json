@@ -48,16 +48,16 @@
       "sha256": "b186052d998e515e5b0155c35673d738f9c2c85197330214d9327b9de9751fe6"
     },
     "eda.html": {
-      "bytes": 8453097,
-      "sha256": "a068e7986b61a59c62dae93b6be17c098da989ed3e9c17c0e84d1298c675736e"
+      "bytes": 8560830,
+      "sha256": "7a5ba30d00503c3825a7a1e71c8c423fea028d4397da34ab70e892de5adc7aea"
     },
     "index.html": {
       "bytes": 4420925,
       "sha256": "e2d6ffb0011f31867859606836f2ea71896f51fdb6d31aa4fa287523665a9524"
     },
     "insights.html": {
-      "bytes": 3988667,
-      "sha256": "3818362fe8b758c6c541e6d783b5ff656f3bd3df0d036d9d34c8830480af329f"
+      "bytes": 3996467,
+      "sha256": "6eb49bb6b20985e34a831b3fcef1fddc093bd3cb214462de32a28119468e7cee"
     },
     "requirements.txt": {
       "bytes": 65,
