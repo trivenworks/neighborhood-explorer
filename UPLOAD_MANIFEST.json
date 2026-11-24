@@ -1,6 +1,6 @@
 {
   "entry": "index.html",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "pages": {
     "home.html": "index.html",
     "workspace.html": "dashboard.html",
@@ -28,8 +28,8 @@
       "sha256": "06dedabfa87fd4db8d88cb72e7780109b902d13f5ed9974f7c96bb6a36d2d13b"
     },
     "README.md": {
-      "bytes": 3379,
-      "sha256": "0c01361cd7f7c22cc030b35cf9ba88e755f6f1c941df2dd0e1bdaf1322f3b44a"
+      "bytes": 3366,
+      "sha256": "e04d4d2d1172ec814d14446bf61bfd9fbb5a0e1841261aed65b98884b517d3fc"
     },
     "api/local-search.py": {
       "bytes": 409,
@@ -44,20 +44,20 @@
       "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     "dashboard.html": {
-      "bytes": 7032723,
-      "sha256": "b186052d998e515e5b0155c35673d738f9c2c85197330214d9327b9de9751fe6"
+      "bytes": 7034167,
+      "sha256": "73c3e92a2c33cb5b7fe8d0e4f356d1d7752ffea5fa875a4b0336d90b7e0defba"
     },
     "eda.html": {
       "bytes": 8560830,
       "sha256": "7a5ba30d00503c3825a7a1e71c8c423fea028d4397da34ab70e892de5adc7aea"
     },
     "index.html": {
-      "bytes": 4420925,
-      "sha256": "e2d6ffb0011f31867859606836f2ea71896f51fdb6d31aa4fa287523665a9524"
+      "bytes": 4425323,
+      "sha256": "a86457479417106cf4a7db387e3972d1324e3769e64bd319b8e7186d5a0fd022"
     },
     "insights.html": {
-      "bytes": 3996467,
-      "sha256": "6eb49bb6b20985e34a831b3fcef1fddc093bd3cb214462de32a28119468e7cee"
+      "bytes": 4400081,
+      "sha256": "d806f80e7d755ee203a3e037494d2cbb063868dd931840632c4cc2c63f6e97da"
     },
     "requirements.txt": {
       "bytes": 65,
